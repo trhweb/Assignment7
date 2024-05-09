@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .class > button{
+       
+       padding: 20px 27px;
+       margin-top: 10px;
+       border-radius: 10px;
+       background-color: aqua;
+       position: relative;
+       animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+       
+    }
+    
+ @keyframes example {
+    0%{
+    transform: rotate(0deg); left: 0px;
+   }
+   50%{
+    transform: rotate(360deg); left: 500px;
+   }
+   
+ 
+
+  100%{
+     transform: rotate(360deg) ; left: 0px;
+  }
+}
+    </style>
+   
+</head>
+<body>
+    <div class="class">
+        <button>Css</button>
+    </div>
+</body>
+</html>
